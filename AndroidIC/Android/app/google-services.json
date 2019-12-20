@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "136725836024",
+    "firebase_url": "https://androidimageclassifier.firebaseio.com",
+    "project_id": "androidimageclassifier",
+    "storage_bucket": "androidimageclassifier.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:136725836024:android:deebeae0a83d968891cb0d",
+        "android_client_info": {
+          "package_name": "com.example.androidic"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "136725836024-5v166rsc68ar615o9qd3a4i7apad6jj6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD2UDSgKGNuGmonpgxvxYYfYIhj8ugNBKU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "136725836024-5v166rsc68ar615o9qd3a4i7apad6jj6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
