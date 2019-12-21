@@ -25,3 +25,11 @@ AndroidCustomModel.ipynb is the colab notebook which is responsible for
 model.08-0.58.hdf5  is the trained model, saved using ModelCheckpoint callback
 
 model.tflite  is the converted model used in the android app
+
+# Working Video
+
+This is the link to the app in Action : https://youtu.be/TPn2P4eDCTs
+
+Important point:
+
+>the Probability percentage is a round figure so, 100% actually means it is very close to 100 like, (99.65%)
