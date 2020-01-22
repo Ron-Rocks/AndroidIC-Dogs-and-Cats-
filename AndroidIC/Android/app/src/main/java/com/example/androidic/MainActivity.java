@@ -67,6 +67,9 @@ public class MainActivity extends AppCompatActivity {
         detectBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                
+                /* To classify a stored image
+                
                 bm = getBitmap();
                 bm.createScaledBitmap(bm, 300, 300, false);
                 iv.setImageBitmap(bm);
@@ -79,17 +82,18 @@ public class MainActivity extends AppCompatActivity {
                 }
 
                 resultView.setText(res);
+                */
 
                 cameraView.captureImage(new CameraKitView.ImageCallback() {
                     @Override
                     public void onImage(CameraKitView cameraKitView, byte[] bytes) {
-                       /* ByteArrayInputStream stream = new ByteArrayInputStream(bytes);
+                        ByteArrayInputStream stream = new ByteArrayInputStream(bytes);
                         Bitmap bm = BitmapFactory.decodeStream(stream);
                         iv.setImageBitmap(bm);
 
                         List<Classifier.Recogonition> results = classifier.recImg(bm);
 
-                        resultView.setText(results.toString());*/
+                        resultView.setText(results.toString());
                     }
                 });
             }
@@ -110,7 +114,6 @@ public class MainActivity extends AppCompatActivity {
         }
 
         Bitmap bm = BitmapFactory.decodeStream(is);
-       // Bitmap newBm = bm.copy(Bitmap.Config.ARGB_8888,false);
         return bm;
     }
 
